@@ -1,2 +1,2 @@
-# table-_price
+# table_price
 Tabela de preço
