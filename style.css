@@ -14,8 +14,7 @@ body {
     box-sizing: border-box;
     background-color: var(--page-background);
     font-family: 'Open Sans';
-    width: 100vw;
-    height: 100vh;
+    min-width: 1580;
 }
 
 .head {
@@ -51,7 +50,7 @@ h1 {
 }
 
 .page {
-    position: fixed;
+    position: absolute;
     width: 100vw;
     height: 450px;
 
@@ -599,17 +598,22 @@ h1 {
     }
 
 }
-@media(max-width:806px){
-    .head{
+
+@media(max-width:806px) {
+    .head {
         margin-left: 10rem;
     }
-    .containers{
+
+    .containers {
         margin-left: 11rem;
     }
-    .container-center{
+
+    .container-center {
         margin-right: 28px;
     }
-    .container-right{
+
+    .container-right {
         margin-right: 63px;
     }
 }
+

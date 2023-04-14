@@ -1,4 +1,4 @@
 # table_price
 Tabela de preço
-HTML
-CSS
+- HTML
+- CSS
